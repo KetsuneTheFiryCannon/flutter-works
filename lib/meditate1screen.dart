@@ -233,7 +233,7 @@ class MeditateOneWidget extends StatelessWidget {
                     Padding(
                         padding: EdgeInsets.only(
                           left: 90,
-                          bottom: 9000),
+                          bottom: 10),
                         child: Image.asset('assets/group22.png'))
                   ],
                 ),
