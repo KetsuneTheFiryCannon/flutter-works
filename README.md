@@ -1,16 +1,35 @@
-# pr_2
+# Практическая работа №2
+## Тема: Инициализация работы БД SQLite3 
 
-A new Flutter project.
+#### Цель работы: Научиться инициализировать базу данных с использованием парадигмы программирования, разработать модели и запросы.
 
-## Getting Started
+#### Ход работы: 
 
-This project is a starting point for a Flutter application.
+1)	Инициализация БД 
+Для начала работы необходимо проинициализировать базу данных под названием "shop". В качестве пути выставляется директория приложения и название базы.
 
-A few resources to get you started if this is your first Flutter project:
+![image](https://user-images.githubusercontent.com/61077176/203882178-7c9c52c2-0a54-43bc-b70d-80529bc11950.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2) Создание моделей
+Необходимо прописать архитектуру каждой сущности согласно erd диаграмме. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/61077176/203882343-f9177e5f-2a49-471f-99c5-3319a50753e5.png)
+![image](https://user-images.githubusercontent.com/61077176/203882374-de3c0876-197e-423c-b479-93c1abce00ac.png)
+![image](https://user-images.githubusercontent.com/61077176/203882657-8dddcecd-bbaa-4475-9aec-9266ea0096f7.png)
+
+3)	Создание мапинга 
+Необходимо прописать json карты для колон таблицы из json и обратно. 
+
+![image](https://user-images.githubusercontent.com/61077176/203882684-14dbeb28-5c6f-49cc-b5d4-74c2659eaae8.png)
+
+4)	Написание запросов 
+Чтобы создать таблицы необходимо написать запросы на создание.
+
+![image](https://user-images.githubusercontent.com/61077176/203882865-ba3ad91c-cd9d-4661-9fad-e55d568be3f6.png)
+
+5)	Методы манипулирования БД
+Необходимо создать CRUD методы. 
+
+![image](https://user-images.githubusercontent.com/61077176/203882969-2e954356-4b9e-498f-89c3-76f7fa495838.png)
+
+Вывод: В ходе работы были созданы модели, сущности по ним, маппинга, проинициализированна бд и написаны запросы к ней.
